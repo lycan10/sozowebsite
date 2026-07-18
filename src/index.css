@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Unbounded:wght@200..900&display=swap');
+
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  --background-color: #ffffff;
+  --primary-color: #2d1437;
+  --title-color: #e8c9a0;
+  --black-color: black;
+  --text-color: #8E8E93;
+--secondary-color: #fbfcfb;
+}
+
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+}
+
+h2{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+}
+h3{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+}
+h4{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+}
+h5{
+  color: white;
+  margin: 0;
+  padding: 0;
+  font-family: "Unbounded", sans-serif;
+}
+
+
+p{
+  color: white;
+  margin: 0;
+  font-family: "Space Grotesk", sans-serif;
+}
+

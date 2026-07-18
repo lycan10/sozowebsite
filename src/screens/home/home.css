@@ -1,0 +1,360 @@
+.home{
+
+}
+.Header{
+padding: 1rem 1rem;
+}
+.header-container{
+    position: relative;
+}
+.header-img{
+    height: 100vh;
+    width: 100%;
+}
+.header-img img{
+    height: 100%;
+    width: 100%;
+}
+.header-content-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: start;
+}
+.header-content-middle{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-content-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-content-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.header-content-middle h1{
+    font-size: 150px;
+    margin: 0;
+}
+.header-content-feelings{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 30px;
+    padding: 0.75rem;
+}
+.header-content-feelings-left{
+    color: white;
+    width: 52px;
+    height: 52px;
+    background: linear-gradient(to top, #ff00b7, #ffe364);
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 20px;
+}
+            
+.header-content-feelings-middle{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 1rem;
+   
+}
+.header-content-feelings-middle h5{
+    margin-bottom: 0.25rem;
+    font-weight: 600;
+    font-size: 16px;
+    font-family: "Space Grotesk", sans-serif;
+}
+.header-content-feelings-middle p{
+    font-size: 12px;
+}
+
+.header-content-feelings-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 36px;
+    height: 36px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50%;
+    margin-left: 4rem;
+    color: white;
+}
+.header-content-feelings-right img{
+    width: 100%;
+}
+.header-content-middle h1{
+
+}
+
+
+.header-content-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.header-content-right:last-child{
+
+}
+.header-other-image{
+    position: absolute;
+    bottom: -3rem;
+    right: 17rem;
+}
+.header-other-image img{
+width: 300px;
+}
+
+
+/* Marquess */
+.home-marquee{
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.2) ;
+    padding: 0.75rem 0 1.5rem;
+}
+.marquee-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.marquee-container img{
+margin: 0 4rem;
+}
+.marquee-container p{
+    color: rgba(255, 255, 255, 0.4);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+/* About */
+.web-body{
+    padding: 3rem 6rem;
+}
+.about-container{
+    text-align: center;
+}
+.about-container h1{
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+.about-container p{
+    font-size: 16px;
+    color: var(--text-color);
+}
+.about-card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1.5rem;
+    margin-top: 3rem;
+   
+}
+.about-card-container h1{
+
+}
+
+/* discover */
+.discover-container{
+    margin-top: 8rem;
+
+}
+
+.discover-container h1{
+    font-size: 52px;
+    font-weight: 800;
+    max-width: 900px;
+}
+
+/* cta */
+
+.cta-card-container{
+    background: linear-gradient(to bottom, #4A3AFF, #000000 );
+    padding: 5rem;
+    border-radius: 30px;
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.cta-card-container h5{
+    font-size: 32px;
+    font-weight: 500;
+    max-width: 700px;
+    text-align: center;
+ 
+}
+.cta-card-container p{
+    margin: 2rem 0;
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 450px;
+    text-align: center;
+}
+
+.cta-card-button{
+margin-top: 1rem;
+}
+
+
+/* home- title */
+.home-title{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.home-title h1{
+    font-size: 52px;
+    font-weight: 800;
+    max-width: 750px;
+}
+.home-title-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.home-title-container p{
+    color: var(--text-color);
+    font-size: 16px;
+    max-width: 350px;
+}
+.home-title-button{
+margin-top: 1rem;
+}
+
+.journal-img{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 4rem 0;
+}
+.journal-img-1{
+    width: 370px;
+    height: 280px;
+    object-fit: cover;
+}
+.journal-img-2{
+    width: 375px;
+    height: 770px;
+    object-fit: cover;
+    margin: 0 2rem ;
+}
+.journal-img-3{
+    height: 200px;
+    width: 360px;
+    object-fit: cover;
+
+}
+
+.home-admin-dashboard{
+    margin-top: 4rem;
+    width: 100%;
+    height: 479px;
+}
+
+.home-admin-dashboard img{
+    width: 100%;
+    height: 479px;
+}
+
+.home-download{
+    padding: 3rem 3rem 4rem;
+    background-color: #ff00b7;
+    border-radius: 30px;
+    margin-top: 4rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.home-download h1{
+    font-size: 82px;
+    font-weight: 700;
+    max-width: 700px;
+    text-align: center;
+}
+.home-download p{
+    font-size: 27px;
+    font-weight: 500;
+    max-width: 700px;
+    text-align: center;
+    margin: 2rem 0;
+}
+.home-download-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: 1px dotted rgba(255, 255, 255, 0.4);
+    padding: 1rem;
+    border-radius: 20px;
+
+}
+.home-download-container p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0;
+}
+.home-download-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1rem;
+}
+.home-download-logo img{
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+    margin-left: 0.5rem;
+}
+
+.home-review{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 4rem 0;
+}
+
+.home-review p{
+    color: var(--text-color);
+    font-size: 16px;
+    text-align: center;
+}
+
+.home-review h1{
+    font-size: 46px;
+    text-align: center;
+}

@@ -1,0 +1,32 @@
+.aboutcard{
+    height: 536px;
+    border-radius: 22px;
+    position: relative;
+}
+.aboutcard img{
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+}
+.aboutcard-content{
+position: absolute;
+bottom: -2.5rem;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding-left: 1.25rem;
+}
+
+.aboutcard-content h3{
+    font-weight: 700 !important;
+    font-size: 23px !important;
+
+}
+
+.aboutcard-content p{
+    font-weight: 500 !important;
+    font-size: 12px !important;
+    color: rgba(255, 255, 255, 0.6) !important;
+    margin-bottom: 0.3rem;
+}
