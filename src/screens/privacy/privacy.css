@@ -1,0 +1,203 @@
+/* ===============================
+   PRIVACY POLICY
+================================== */
+
+.privacy {
+    min-height: 100vh;
+    padding: 0rem 0 0rem;
+  }
+  
+  .privacy-container {
+    margin: 0 auto;
+    padding: 7rem 6rem 0;
+  }
+  
+  .privacy-container h1 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: #EBFF00 !important;
+    margin-bottom: 0.5rem !important;
+  }
+  
+  .privacy-date {
+    font-size: 15px;
+    color: #6b7280 !important;
+    margin-bottom: 3rem !important;
+  }
+  
+  .privacy-content {
+    border-radius: 24px;
+    padding: 0rem 3rem;
+    box-shadow: 0 20px 60px rgba(12, 12, 13, 0.08);
+  }
+  
+  .privacy-content h2 {
+    font-family: "Bricolage Grotesque", sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    margin: 3rem 0 1rem !important;
+  }
+  
+  .privacy-content h2:first-child {
+    margin-top: 0;
+  }
+  
+  .privacy-content h3 {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 2rem 0 0.75rem !important;
+  }
+  
+  .privacy-content p {
+    font-size: 16px;
+    line-height: 1.9;
+    margin-bottom: 1rem !important;
+  }
+  
+  .privacy-content ul {
+    margin: 1rem 0 2rem 1.5rem;
+    padding: 0;
+  }
+  
+  .privacy-content li {
+    font-family: "Inter", sans-serif;
+    font-size: 14px;
+    line-height: 1.9;
+    color: white;
+    margin-bottom: 0.5rem;
+  }
+  
+  .privacy-content hr {
+    border: none;
+    border-top: 1px solid #ececec;
+    margin: 3rem 0;
+  }
+  
+  .privacy-content blockquote {
+    margin-top: 3rem;
+    padding: 1.5rem;
+    border-left: 4px solid #EBFF00;
+    background: #f6f6ff;
+    border-radius: 12px;
+    font-style: italic;
+    font-family: "Inter", sans-serif;
+    color: #444;
+    line-height: 1.8;
+  }
+  
+  .privacy-content strong {
+    color: #EBFF00;
+    font-weight: 600;
+  }
+
+  .privacy-footer{
+    padding: 0 6rem 4rem;
+  }
+  
+  /* ===============================
+     RESPONSIVE
+  ================================== */
+  
+  /* Tablet */
+  @media (max-width: 1200px) {
+    .privacy {
+      padding: 6rem 0 4rem;
+    }
+  
+    .privacy-container {
+      max-width: 900px;
+    }
+  
+    .privacy-container h1 {
+      font-size: 46px;
+    }
+  
+    .privacy-content {
+      padding: 2.5rem;
+    }
+  }
+  
+  /* Small Tablet */
+  @media (max-width: 800px) {
+    .privacy {
+      padding: 5rem 0 3rem;
+    }
+  
+    .privacy-container {
+      padding: 0 1.5rem;
+    }
+  
+    .privacy-container h1 {
+      font-size: 38px;
+    }
+  
+    .privacy-content {
+      padding: 2rem;
+      border-radius: 20px;
+    }
+  
+    .privacy-content h2 {
+      font-size: 26px;
+    }
+  
+    .privacy-content h3 {
+      font-size: 18px;
+    }
+  
+    .privacy-content p,
+    .privacy-content li {
+      font-size: 15px;
+      line-height: 1.8;
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 500px) {
+    .privacy {
+      padding: 4rem 0 2rem;
+    }
+  
+    .privacy-container {
+      padding: 0 1rem;
+    }
+  
+    .privacy-container h1 {
+      font-size: 30px;
+      line-height: 1.2;
+    }
+  
+    .privacy-date {
+      font-size: 14px;
+      margin-bottom: 2rem;
+    }
+  
+    .privacy-content {
+      padding: 1.5rem;
+      border-radius: 18px;
+    }
+  
+    .privacy-content h2 {
+      font-size: 22px;
+      margin: 2rem 0 0.75rem;
+    }
+  
+    .privacy-content h3 {
+      font-size: 17px;
+    }
+  
+    .privacy-content p,
+    .privacy-content li {
+      font-size: 14px;
+      line-height: 1.7;
+    }
+  
+    .privacy-content ul {
+      margin-left: 1.2rem;
+    }
+  
+    .privacy-content blockquote {
+      padding: 1.2rem;
+      font-size: 14px;
+    }
+  }

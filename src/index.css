@@ -8,6 +8,7 @@ html {
   --background-color: #ffffff;
   --primary-color: #2d1437;
   --title-color: #e8c9a0;
+  --brand-color: #EBFF00;
   --black-color: black;
   --text-color: #8E8E93;
 --secondary-color: #fbfcfb;
@@ -20,41 +21,41 @@ body {
 }
 
 h1{
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: "Unbounded", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Unbounded", sans-serif !important;
 }
 
 h2{
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: "Unbounded", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Unbounded", sans-serif !important;
 }
 h3{
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: "Unbounded", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Unbounded", sans-serif !important;
 }
 h4{
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: "Unbounded", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Unbounded", sans-serif !important;
 }
 h5{
-  color: white;
-  margin: 0;
-  padding: 0;
-  font-family: "Unbounded", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: "Unbounded", sans-serif !important;
 }
 
 
 p{
-  color: white;
-  margin: 0;
-  font-family: "Space Grotesk", sans-serif;
+  color: white !important;
+  margin: 0 !important;
+  font-family: "Space Grotesk", sans-serif !important;
 }
 

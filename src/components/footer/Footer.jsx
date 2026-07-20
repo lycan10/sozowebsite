@@ -9,7 +9,41 @@ import bible from "../../assets/footer/verse.png"
 import QR from "../../assets/footer/qr-code.png"
 import "./footer.css"
 
+
+
+
 const Footer = () => {
+  const navigateToHome = () => {
+    // Use the URL of the page you want to navigate to
+    const newUrl = "/";
+
+    if (window.location.pathname === newUrl) {
+      window.location.reload();
+    } else {
+      window.location.href = newUrl;
+    }
+  };
+  const navigateToPrivacy = () => {
+    // Use the URL of the page you want to navigate to
+    const newUrl = "/privacy";
+
+    if (window.location.pathname === newUrl) {
+      window.location.reload();
+    } else {
+      window.location.href = newUrl;
+    }
+  };
+
+  const navigateToTerms = () => {
+    // Use the URL of the page you want to navigate to
+    const newUrl = "/terms";
+
+    if (window.location.pathname === newUrl) {
+      window.location.reload();
+    } else {
+      window.location.href = newUrl;
+    }
+  };
   return (
     <div className="footer">
       <div className="footer-container">
@@ -24,8 +58,8 @@ const Footer = () => {
             </div>
             <div className="footer-top-left-content">
               <h3>Legal</h3>
-              <p>Privacy Policy</p>
-              <p>Terms & Conditions</p>
+              <p onClick={navigateToPrivacy}>Privacy Policy</p>
+              <p onClick={navigateToTerms}> Terms & Conditions</p>
             </div>
 
           </div>
@@ -36,7 +70,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom">
-            <img src={logo} alt="" />
+            <img src={logo} alt="" onClick={navigateToHome} />
         <p>© {new Date().getFullYear()} SBA Research. All Rights Reserved.</p>
         <div className="footer-bottom-socials">
         <FaInstagram className="footer-social" />

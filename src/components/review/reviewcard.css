@@ -21,21 +21,25 @@
     font-weight: 500;
     line-height: 2rem;
     max-width: 550px;
+    transition: all 0.3s ease;
 }
 .home-review-text h4{
     font-size: 16px;
     font-weight: 500;
-    margin: 0.75rem 0 0.2rem;
+    margin: 0.75rem 0 0.2rem !important;
+    transition: all 0.3s ease;
 }
 .home-review-text h5{
-    font-size: 15px;
+    font-size: 15px ;
     font-weight: 400;
-   color: #AAEB00;
-   margin-top: 1rem;
+   color: #AAEB00 !important;
+   margin-top: 1rem !important;
+   transition: all 0.3s ease; 
 }
 .home-review-text p{
-    color: var(--text-color);
+    color: var(--text-color) !important;
     font-size: 14px;
+    transition: all 0.3s ease;
 }
 
 .home-review-img{
@@ -47,4 +51,40 @@
     object-fit: cover;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
+    transition: all 0.3s ease;
 }
+/* .home-review-arrow-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0rem;
+}
+.home-review-arrow-left{
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.1rem;
+}
+.home-review-arrow-right{
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.07);
+    border-radius: 50%;
+    border: 1px solid rgba(255, 255, 255, 0.1) ;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 0.1rem;
+} */

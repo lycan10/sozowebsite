@@ -1,6 +1,4 @@
-.footer{
 
-}
 .footer-container{
     padding: 6rem 0 0;
 }
@@ -21,14 +19,19 @@
 margin-right: 2rem;
 }
 .footer-top-left-content h3{
-    color: var(--text-color);
+    color: var(--text-color) !important;
     font-size: 14px;
     font-weight: 400;
-    margin-bottom: 0.4rem;
+    margin-bottom: 0.4rem !important;
 }
 .footer-top-left-content p{
     font-size: 15px;
-    margin-bottom: 0.35rem;
+    margin-bottom: 0.35rem !important;
+    cursor: pointer;
+}
+.footer-top-left-content p:hover {
+    color: var(--brand-color) !important;
+    transition: all 0.5s ease;
 }
 
 .footer-top-right{
@@ -73,7 +76,7 @@ margin-right: 2rem;
     font-size: 15px;
     font-weight: 400;
     text-align: center;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
             
 .footer-bottom-socials{
@@ -81,5 +84,5 @@ margin-right: 2rem;
 }
 .footer-social{
     padding-left: 1rem;
-    color: var(--text-color);
+    color: var(--text-color) !important;
 }
